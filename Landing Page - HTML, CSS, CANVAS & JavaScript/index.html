@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Landing Page | HTML, CSS, CANVAS & JavaScript</title>
+ <link rel="stylesheet" href="css/style.css"/>
+ <script src="js/jquery-1.10.2.min.js"></script>
+ <script src="js/rellax.js"></script>
+</head>
+<body>
+ <div class="header">
+   <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About</a></li>
+     <li><a href="#">Services</a></li>
+     <li><a href="#">Work</a></li>
+     <li><a href="#">Contact</a></li>
+   </ul>
+   <img src="img/product.png" class="product rellax">
+    <button id="btn">Learn More</button>
+    <p class="line anim-typewriter">Let's Drive</p>
+   <img src="img/bg-head.png" class="img-1 rellax" data-rellax-speed="8">
+   <img src="img/bg-head-2.png" class="img-2 rellax" data-rellax-speed="1">
+    <canvas id="smoke" width="1500" height="700px"></canvas>
+ </div>
+ <script src="js/smoke.js"></script>
+ <script type="text/javascript">
+   var rellax = new Rellax('.rellax');
+ </script>
+</body>
+</html>
